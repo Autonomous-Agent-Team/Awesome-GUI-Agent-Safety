@@ -1,0 +1,83 @@
+name: Update README with Sorted Papers Content
+
+on:
+  push:
+    paths:
+      - 'update_template_or_data/update_paper_list.md'         # listen to update_paper_list.md 
+      - 'update_template_or_data/utils/scripts/sort_by_date.py'   # listen to update_template_or_data/utils/scripts/sort_by_date.py
+      - 'update_template_or_data/update_readme_template.md'   # listen to update_template_or_data/utils/scripts/sort_by_date.py
+      - '.github/workflows/main.yml'
+  # schedule:
+  #   - cron: '0 0 * * *'     # everyday
+
+permissions:
+  contents: write 
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true  # Enable Git LFS checkout
+
+      - name: Set up Git LFS
+        run: |
+          git lfs install
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'  # 使用最新的 Python 版本
+
+      - name: Install dependencies
+        run: |
+          pip install pandas matplotlib seaborn wordcloud
+
+      - name: Run update_template_or_data/utils/scripts/sort_by_date.py
+        run: |
+          python update_template_or_data/utils/scripts/sort_by_date.py
+          
+      - name: Generate keyword grouping and update temp_readme.md
+        run: |
+          # Read the pre-generated keyword grouping Markdown
+          if [ -f update_template_or_data/keyword_grouping.md ]; then
+            GROUPED_KEYWORDS=$(cat update_template_or_data/keyword_grouping.md)
+          else
+            GROUPED_KEYWORDS="No keywords available"
+          fi
+
+          # Insert the keyword grouping content into the template
+          sed -i '/{{insert_keyword_groups_here}}/{
+            r /dev/stdin
+            d
+          }' update_template_or_data/update_readme_template.md <<< "$GROUPED_KEYWORDS"
+
+      - name: Update temp_readme.md with sorted papers content
+        run: |
+          CONTENT=$(cat update_template_or_data/update_paper_list.md)
+          
+          sed -i '/{{insert_all_papers_here}}/{
+            r /dev/stdin
+            d
+          }' update_template_or_data/update_readme_template.md <<< "$CONTENT"
+
+
+      - name: Overwrite README.md with updated temp_readme.md
+        run: |
+          # overwrite README.md
+          cp update_template_or_data/update_readme_template.md README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md 
+          git add paper_by_env 
+          git add paper_by_key
+          git add update_template_or_data/statistics
+          git commit -m "auto updates by github workflow"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
