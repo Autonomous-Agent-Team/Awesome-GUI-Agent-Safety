@@ -106,6 +106,15 @@
     - 🔑 Key: [benchmark], [evaluation], [risk]
     - 📖 TLDR: This paper finds that even safety-aligned MLLMs can be compromised by benign text paired with malicious images. To assess this, we introduce MM-SafetyBench with 5,040 text-image pairs across 13 scenarios. Testing 12 models confirms their vulnerability, and we propose an effective prompting strategy for defense. [Github](https://github.com/AI45Lab/MM-SafetyBench)
 
+- [Introducing v0.5 of the AI Safety Benchmark from MLCommons](https://arxiv.org/abs/2404.12241)
+    -  MLCommons AI Safety Working Group (WG)
+    - 🏛️ Institutions:  MLCommons AI Safety Working Group (WG), et al.
+    - 📅 Date: May. 13, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Misc]
+    - 🔑 Key: [benchmark], [evaluation], [AI-Safety], [AI-systems]
+    - 📖 TLDR: This paper presents v0.5 of the AI Safety Benchmark by the MLCommons AI Safety Working Group, designed to evaluate safety risks of chat-tuned AI systems. Version 0.5 covers a single English chat use case with typical, malicious, and vulnerable personas. It introduces 13 hazard categories, with tests for seven, totaling 43,090 prompts. The release includes benchmark specifications, a grading system, the ModelBench evaluation platform, an example report, and documentation of limitations. Version 1.0, planned for late 2024, will offer broader safety insights.
+
 - [Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents](https://arxiv.org/abs/2402.11208)
     - Wenkai Yang, Xiaohan Bi, Yankai Lin, Sishuo Chen, Jie Zhou, Xu Sun
     - 🏛️ Institutions: Renming University of China, PKU, Tencent
