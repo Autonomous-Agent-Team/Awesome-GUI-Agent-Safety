@@ -18,6 +18,7 @@
 - [🛡️ Awesome GUI Agent Safety](#️-awesome-gui-agent-safety)
   - [📖 Table of Contents](#-table-of-contents)
   - [Overview](#overview)
+  - [📊 Keyword Visualization](#-keyword-visualization)
   - [Papers Grouped by Environments](#papers-grouped-by-environments)
   - [Papers Grouped by Keywords](#papers-grouped-by-keywords)
   - [All Papers (from most recent to oldest)](#all-papers-from-most-recent-to-oldest)
@@ -41,10 +42,10 @@ This repository covers a variety of papers related to **GUI Agent Safety**, incl
 
 ---
 
-<!-- ## 📊 Keyword Visualization
+## 📊 Keyword Visualization
 ![Keyword Word Cloud](update_template_or_data/statistics/keyword_wordcloud_long.png)
 
---- -->
+---
 
 ## Papers Grouped by Environments
 
@@ -395,7 +396,9 @@ This repository covers a variety of papers related to **GUI Agent Safety**, incl
 
 ## How to Add a Paper
 
-Please add your entry to `update_template_or_data/update_paper_list.md` following the format shown below. Once your update is complete, submit a pull request to the main repository. After the pull request is merged, the GitHub Actions workflow will automatically update the main `README.md`, as well as the keyword and environment grouping files, sorted by date. You may include multiple keywords for your entry. However, to ensure consistency across the repository, we recommend selecting the most relevant keywords that are already in use whenever possible.
+- Please add your entry to `update_template_or_data/update_paper_list.md` following the format shown below. Once your update is complete, submit a pull request to the main repository. After the pull request is merged, the GitHub Actions workflow will automatically update the main `README.md`, as well as the keyword and environment grouping files, sorted by date. 
+  
+- You can include multiple keywords for your entry. However, to ensure consistency across the repository, we recommend selecting the most relevant keywords that are already in use whenever possible.
 
 <details>
 <summary>Format example and explanation</summary>
