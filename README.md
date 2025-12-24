@@ -375,11 +375,11 @@ This repository covers a variety of papers related to **GUI Agent Safety**, incl
 - [Introducing v0.5 of the AI Safety Benchmark from MLCommons](https://arxiv.org/abs/2404.12241)
     -  MLCommons AI Safety Working Group (WG)
     - 🏛️ Institutions:  MLCommons AI Safety Working Group (WG), et al.
-    - 📅 Date: May. 13 2024
+    - 📅 Date: May. 13, 2024
     - 📑 Publisher: arXiv
     - 💻 Env: [Mobile]
     - 🔑 Key: [benchmark], [evaluation], [AI-Safety], [AI-systems]
-    - 📖 TLDR: This paper introduces v0.5 of the AI Safety Benchmark, which has been created by the MLCommons AI Safety Working Group. The AI Safety Benchmark has been designed to assess the safety risks of AI systems that use chat-tuned language models. We introduce a principled approach to specifying and constructing the benchmark, which for v0.5 covers only a single use case (an adult chatting to a general-purpose assistant in English), and a limited set of personas (i.e., typical users, malicious users, and vulnerable users). We created a new taxonomy of 13 hazard categories, of which 7 have tests in the v0.5 benchmark. This release of v0.5 of the AI Safety Benchmark includes (1) a principled approach to specifying and constructing the benchmark, which comprises use cases, types of systems under test (SUTs), language and context, personas, tests, and test items; (2) a taxonomy of 13 hazard categories with definitions and subcategories; (3) tests for seven of the hazard categories, each comprising a unique set of test items, i.e., prompts. There are 43,090 test items in total, which we created with templates; (4) a grading system for AI systems against the benchmark; (5) an openly available platform, and downloadable tool, called ModelBench that can be used to evaluate the safety of AI systems on the benchmark; (6) an example evaluation report which benchmarks the performance of over a dozen openly available chat-tuned language models; (7) a test specification for the benchmark.
+    - 📖 TLDR: This paper presents v0.5 of the AI Safety Benchmark by the MLCommons AI Safety Working Group, designed to evaluate safety risks of chat-tuned AI systems. Version 0.5 covers a single English chat use case with typical, malicious, and vulnerable personas. It introduces 13 hazard categories, with tests for seven, totaling 43,090 prompts. The release includes benchmark specifications, a grading system, the ModelBench evaluation platform, an example report, and documentation of limitations. Version 1.0, planned for late 2024, will offer broader safety insights.
 
 - [Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents](https://arxiv.org/abs/2402.11208)
     - Wenkai Yang, Xiaohan Bi, Yankai Lin, Sishuo Chen, Jie Zhou, Xu Sun
@@ -405,9 +405,9 @@ This repository covers a variety of papers related to **GUI Agent Safety**, incl
 
 ## How to Add a Paper
 
-- Please add your entry to `update_template_or_data/update_paper_list.md` following the format shown below. Once your update is complete, submit a pull request to the main repository. After the pull request is merged, the GitHub Actions workflow will automatically update the main `README.md`, as well as the keyword and environment grouping files, sorted by date. 
+Add your entry to `update_template_or_data/update_paper_list.md` following the format below. Submit a pull request to the main repository. Once merged, GitHub Actions will automatically update `README.md`, as well as the keyword and environment grouping files, sorted by date. 
 
-- You may include multiple keywords for your entry. However, to ensure consistency across the repository, we recommend selecting the most relevant keywords that are already in use whenever possible.
+You may include multiple keywords, but to maintain consistency, we recommend using the most relevant keywords already present in the repository.
 
 <details>
 <summary>Format example and explanation</summary>
