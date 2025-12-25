@@ -1,3 +1,12 @@
+- [AEGIS2.0: A Diverse AI Safety Dataset and Risks Taxonomy for Alignment of LLM Guardrails](https://arxiv.org/pdf/2501.09004)
+    -  Shaona Ghosh, Prasoon Varshney, Makesh Narsimhan Sreedhar, Aishwarya Padmakumar, Traian Rebedea, Jibin Rajan Varghese, Christopher Parisien
+    - 🏛️ Institutions:  Nvidia
+    - 📅 Date: Jan. 15, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Misc]
+    - 🔑 Key: [dataset], [evaluation], [AI-Safety]
+    - 📖 TLDR: To address the lack of high-quality, commercially usable safety datasets for LLMs, we created Aegis 2.0. This dataset features a novel, fine-grained taxonomy (12 main hazard categories, 9 subcategories) for classifying risks. It contains over 34,000 human-LLM interactions, annotated via a hybrid human+LLM jury pipeline. Crucially, lightweight models fine-tuned on Aegis 2.0 match the performance of models trained on much larger, non-commercial datasets. We also introduce a safety+topic training blend that improves model adaptability to new risks. All data and models will be open-sourced to advance LLM safety research.
+
 - [Qwen3Guard Technical Report](https://arxiv.org/pdf/2510.14276)
     -  Qwen Team
     - 🏛️ Institutions:  Qwen Team
