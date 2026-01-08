@@ -80,7 +80,7 @@ This repository covers a variety of papers related to **GUI Agent Safety**, incl
 
 Add your entry to `update_template_or_data/update_paper_list.md` following the format below. Submit a pull request to the main repository. Once merged, GitHub Actions will automatically update `README.md`, as well as the keyword and environment grouping files, sorted by date. 
 
-You may include multiple keywords, but to maintain consistency, we recommend using the most relevant keywords already present in the repository.
+You can include multiple keywords, but to maintain consistency, we recommend using the most relevant keywords already present in the repository.
 
 <details>
 <summary>Format example and explanation</summary>

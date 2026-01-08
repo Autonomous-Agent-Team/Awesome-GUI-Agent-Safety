@@ -285,7 +285,7 @@ def process_markdown():
     except Exception as e:
         logging.error(f"Error generating sorted keyword grouping Markdown: {str(e)}", exc_info=True)
 
-    # Generate keyword word cloud
+    # Generate keyword word cloud, this will be saved in statistics folder and used in README.md
     try:
         all_keywords = []
         for _, row in papers_df.iterrows():
