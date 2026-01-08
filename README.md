@@ -429,7 +429,7 @@ This repository covers a variety of papers related to **GUI Agent Safety**, incl
 
 Add your entry to `update_template_or_data/update_paper_list.md` following the format below. Submit a pull request to the main repository. Once merged, GitHub Actions will automatically update `README.md`, as well as the keyword and environment grouping files, sorted by date. 
 
-You may include multiple keywords, but to maintain consistency, we recommend using the most relevant keywords already present in the repository.
+You can include multiple keywords, but to maintain consistency, we recommend using the most relevant keywords already present in the repository.
 
 <details>
 <summary>Format example and explanation</summary>
@@ -465,7 +465,7 @@ You may include multiple keywords, but to maintain consistency, we recommend usi
 
 This repository references the initial template provided by the OSU-NLP-Group. See the original work at [GUI-Agents-Paper-List](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List).
 
-We are grateful for their excellent works and highly recommend checking out and starring their curated collection of GUI agent papers. Furthermore, we extend our sincere gratitude to all contributors of this repository. If you are interested in our work, please star our repository!
+We are grateful for their excellent work and highly recommend checking out and starring their curated collection of GUI agent papers. Furthermore, we extend our sincere gratitude to all contributors of this repository. If you are interested in our work, please star our repository!
 
 
 
