@@ -461,6 +461,22 @@ You can include multiple keywords, but to maintain consistency, we recommend usi
 
 ---
 
+## 🖋️ Citation
+
+If you find this repository useful, please consider citing it:
+
+```bibtex
+@misc{awesome-gui-agent-safety,
+  author = {Xueyu Hu, Pengshuai Yang, Kailin Zhao, Hong Hu, Bo Yuan},
+  title = {Awesome GUI Agent Safety: A Curated Collection of GUI Agent Safety Research},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/xueyu-ubc/Awesome-GUI-Agent-Safety}}
+}
+```
+
+---
 ## Acknowledgment
 
 This repository references the initial template provided by the OSU-NLP-Group. See the original work at [GUI-Agents-Paper-List](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List).
