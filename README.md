@@ -63,12 +63,21 @@ This repository covers a variety of papers related to **GUI Agent Safety**, incl
 ---
 
 ## Papers Grouped by Keywords
-[evaluation (25)](paper_by_key/paper_evaluation.md) | [benchmark (20)](paper_by_key/paper_benchmark.md) | [risk (16)](paper_by_key/paper_risk.md) | [attack (10)](paper_by_key/paper_attack.md) | [injection (8)](paper_by_key/paper_injection.md) | [framework (7)](paper_by_key/paper_framework.md) | [dataset (5)](paper_by_key/paper_dataset.md) | [privacy (4)](paper_by_key/paper_privacy.md) | [AI-Safety (3)](paper_by_key/paper_AI-Safety.md) | [survey (2)](paper_by_key/paper_survey.md) | [misuse (2)](paper_by_key/paper_misuse.md) | [method (2)](paper_by_key/paper_method.md) | [multi-agent (2)](paper_by_key/paper_multi-agent.md) | [jailbreaking (2)](paper_by_key/paper_jailbreaking.md) | [Model (1)](paper_by_key/paper_Model.md) | [untrustworthy (1)](paper_by_key/paper_untrustworthy.md) | [verification (1)](paper_by_key/paper_verification.md) | [tool (1)](paper_by_key/paper_tool.md) | [trustworthiness (1)](paper_by_key/paper_trustworthiness.md) | [platform (1)](paper_by_key/paper_platform.md)
+[evaluation (26)](paper_by_key/paper_evaluation.md) | [benchmark (20)](paper_by_key/paper_benchmark.md) | [risk (16)](paper_by_key/paper_risk.md) | [attack (10)](paper_by_key/paper_attack.md) | [injection (8)](paper_by_key/paper_injection.md) | [framework (7)](paper_by_key/paper_framework.md) | [dataset (5)](paper_by_key/paper_dataset.md) | [privacy (4)](paper_by_key/paper_privacy.md) | [AI-Safety (3)](paper_by_key/paper_AI-Safety.md) | [survey (2)](paper_by_key/paper_survey.md) | [misuse (2)](paper_by_key/paper_misuse.md) | [method (2)](paper_by_key/paper_method.md) | [multi-agent (2)](paper_by_key/paper_multi-agent.md) | [jailbreaking (2)](paper_by_key/paper_jailbreaking.md) | [Agent-Safety (1)](paper_by_key/paper_Agent-Safety.md) | [Model (1)](paper_by_key/paper_Model.md) | [untrustworthy (1)](paper_by_key/paper_untrustworthy.md) | [verification (1)](paper_by_key/paper_verification.md) | [tool (1)](paper_by_key/paper_tool.md) | [trustworthiness (1)](paper_by_key/paper_trustworthiness.md)
 
 
 ## All Papers (from most recent to oldest)
 <details open>
 <summary>📄 <b>Click to expand/collapse paper list</b></summary>
+
+- [A Trajectory-Based Safety Audit of Clawdbot (OpenClaw)](https://www.arxiv.org/pdf/2602.14364)
+    -  Tianyu Chen, Dongrui Liu, Xia Hu, Jingyi Yu, Wenjie Wang
+    - 🏛️ Institutions:  ShanghaiTech University, Shanghai Artificial Intelligence Laboratory
+    - 📅 Date: Feb. 16, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Misc]
+    - 🔑 Key: [evaluation], [Agent-Safety]
+    - 📖 TLDR: This work evaluates Clawdbot using a trajectory-centric approach across six risk dimensions. The test suite adapts scenarios from prior agent-safety benchmarks and adds custom cases tailored to Clawdbot’s tools. Complete interaction trajectories—including messages, actions, and tool calls—are logged and assessed by an automated judge and human reviewers. Across 34 cases, results show uneven safety performance. Clawdbot performs well on reliability-focused tasks but struggles with underspecified instructions, open-ended goals, and seemingly harmless jailbreak prompts. Small misunderstandings in these situations can escalate into higher-risk tool actions. We analyze representative cases to identify common vulnerabilities and typical failure patterns in practice.
 
 - [OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid Validation in Realistic Workflows](https://arxiv.org/abs/2510.24411)
     - Qiushi Sun, Mukai Li, Zhoumianze Liu, Zhihui Xie, Fangzhi Xu, Zhangyue Yin, Kanzhi Cheng, Zehao Li, Zichen Ding, Qi Liu, Zhiyong Wu, Zhuosheng Zhang, Ben Kao, Lingpeng Kong
@@ -461,22 +470,6 @@ You can include multiple keywords, but to maintain consistency, we recommend usi
 
 ---
 
-## 🖋️ Citation
-
-If you find this repository useful, please consider citing it:
-
-```bibtex
-@misc{awesome-gui-agent-safety,
-  author = {Xueyu Hu, Pengshuai Yang, Kailin Zhao, Hong Hu, Bo Yuan},
-  title = {Awesome GUI Agent Safety: A Curated Collection of GUI Agent Safety Research},
-  year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/xueyu-ubc/Awesome-GUI-Agent-Safety}}
-}
-```
-
----
 ## Acknowledgment
 
 This repository references the initial template provided by the OSU-NLP-Group. See the original work at [GUI-Agents-Paper-List](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List).
