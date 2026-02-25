@@ -1,4 +1,4 @@
-# Papers with Keyword: Agent-Safety
+# Papers with Keyword: Clawdbot
 
 - [A Trajectory-Based Safety Audit of Clawdbot (OpenClaw)](https://www.arxiv.org/pdf/2602.14364)
     -  Tianyu Chen, Dongrui Liu, Xia Hu, Jingyi Yu, Wenjie Wang
