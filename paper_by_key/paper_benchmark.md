@@ -1,5 +1,14 @@
 # Papers with Keyword: benchmark
 
+- [GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents](https://arxiv.org/pdf/2601.18842)
+    -  Yanxi Wang, Zhiling Zhang, Wenbo Zhou, Weiming Zhang, Jie Zhang, Qiannan Zhu, Yu Shi, Shuxin Zheng, Jiyan He
+    - 🏛️ Institutions: Beijing Normal University, Zhongguancun Academy, University of Science and Technology of China, A*STAR, Zhongguancun Institution of Artificial Intelligence
+    - 📅 Date: Jan. 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [Desktop]
+    - 🔑 Key: [Agent-Safety], [privacy], [evaluation], [dataset], [benchmark]
+    - 📖 TLDR: GUI agents automate computer and mobile tasks by directly interacting with on-screen interfaces, but they pose serious privacy risks because screenshots may contain sensitive personal information and are often sent to remote models. These risks depend on interaction context and sequences. This work proposes GUIGuard, a three-stage framework including privacy recognition, protection, and protected task execution. They also introduce GUIGuard-Bench, a cross-platform benchmark with 630 trajectories and fine-grained privacy annotations. Results show current agents have weak privacy recognition, while proper protection can preserve task performance. Privacy recognition remains a key bottleneck for safe GUI agents.
+
 - [OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid Validation in Realistic Workflows](https://arxiv.org/abs/2510.24411)
     - Qiushi Sun, Mukai Li, Zhoumianze Liu, Zhihui Xie, Fangzhi Xu, Zhangyue Yin, Kanzhi Cheng, Zehao Li, Zichen Ding, Qi Liu, Zhiyong Wu, Zhuosheng Zhang, Ben Kao, Lingpeng Kong
     - 🏛️ Institutions: The University of Hong Kong, Fudan University, Shanghai AI Laboratory, Nanyang Technological University ☼Nanjing University, Shanghai Jiao Tong University

@@ -63,7 +63,7 @@ This repository covers a variety of papers related to **GUI Agent Safety**, incl
 ---
 
 ## Papers Grouped by Keywords
-[evaluation (26)](paper_by_key/paper_evaluation.md) | [benchmark (20)](paper_by_key/paper_benchmark.md) | [risk (16)](paper_by_key/paper_risk.md) | [attack (10)](paper_by_key/paper_attack.md) | [injection (8)](paper_by_key/paper_injection.md) | [framework (7)](paper_by_key/paper_framework.md) | [dataset (5)](paper_by_key/paper_dataset.md) | [privacy (4)](paper_by_key/paper_privacy.md) | [AI-Safety (3)](paper_by_key/paper_AI-Safety.md) | [survey (2)](paper_by_key/paper_survey.md) | [misuse (2)](paper_by_key/paper_misuse.md) | [method (2)](paper_by_key/paper_method.md) | [multi-agent (2)](paper_by_key/paper_multi-agent.md) | [jailbreaking (2)](paper_by_key/paper_jailbreaking.md) | [Agent-Safety (1)](paper_by_key/paper_Agent-Safety.md) | [Clawdbot (1)](paper_by_key/paper_Clawdbot.md) | [Model (1)](paper_by_key/paper_Model.md) | [untrustworthy (1)](paper_by_key/paper_untrustworthy.md) | [verification (1)](paper_by_key/paper_verification.md) | [tool (1)](paper_by_key/paper_tool.md)
+[evaluation (27)](paper_by_key/paper_evaluation.md) | [benchmark (21)](paper_by_key/paper_benchmark.md) | [risk (16)](paper_by_key/paper_risk.md) | [attack (10)](paper_by_key/paper_attack.md) | [injection (8)](paper_by_key/paper_injection.md) | [framework (7)](paper_by_key/paper_framework.md) | [dataset (6)](paper_by_key/paper_dataset.md) | [privacy (5)](paper_by_key/paper_privacy.md) | [AI-Safety (3)](paper_by_key/paper_AI-Safety.md) | [survey (2)](paper_by_key/paper_survey.md) | [Agent-Safety (2)](paper_by_key/paper_Agent-Safety.md) | [misuse (2)](paper_by_key/paper_misuse.md) | [method (2)](paper_by_key/paper_method.md) | [multi-agent (2)](paper_by_key/paper_multi-agent.md) | [jailbreaking (2)](paper_by_key/paper_jailbreaking.md) | [Clawdbot (1)](paper_by_key/paper_Clawdbot.md) | [Model (1)](paper_by_key/paper_Model.md) | [untrustworthy (1)](paper_by_key/paper_untrustworthy.md) | [verification (1)](paper_by_key/paper_verification.md) | [tool (1)](paper_by_key/paper_tool.md)
 
 
 ## All Papers (from most recent to oldest)
@@ -78,6 +78,15 @@ This repository covers a variety of papers related to **GUI Agent Safety**, incl
     - 💻 Env: [Misc]
     - 🔑 Key: [Agent-Safety], [Clawdbot], [evaluation]
     - 📖 TLDR: This work evaluates Clawdbot using a trajectory-centric approach across six risk dimensions. The test suite adapts scenarios from prior agent-safety benchmarks and adds custom cases tailored to Clawdbot’s tools. Complete interaction trajectories—including messages, actions, and tool calls—are logged and assessed by an automated judge and human reviewers. Across 34 cases, results show uneven safety performance. Clawdbot performs well on reliability-focused tasks but struggles with underspecified instructions, open-ended goals, and seemingly harmless jailbreak prompts. Small misunderstandings in these situations can escalate into higher-risk tool actions. We analyze representative cases to identify common vulnerabilities and typical failure patterns in practice.
+
+- [GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents](https://arxiv.org/pdf/2601.18842)
+    -  Yanxi Wang, Zhiling Zhang, Wenbo Zhou, Weiming Zhang, Jie Zhang, Qiannan Zhu, Yu Shi, Shuxin Zheng, Jiyan He
+    - 🏛️ Institutions: Beijing Normal University, Zhongguancun Academy, University of Science and Technology of China, A*STAR, Zhongguancun Institution of Artificial Intelligence
+    - 📅 Date: Jan. 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Mobile], [Desktop]
+    - 🔑 Key: [Agent-Safety], [privacy], [evaluation], [dataset], [benchmark]
+    - 📖 TLDR: GUI agents automate computer and mobile tasks by directly interacting with on-screen interfaces, but they pose serious privacy risks because screenshots may contain sensitive personal information and are often sent to remote models. These risks depend on interaction context and sequences. This work proposes GUIGuard, a three-stage framework including privacy recognition, protection, and protected task execution. They also introduce GUIGuard-Bench, a cross-platform benchmark with 630 trajectories and fine-grained privacy annotations. Results show current agents have weak privacy recognition, while proper protection can preserve task performance. Privacy recognition remains a key bottleneck for safe GUI agents.
 
 - [OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid Validation in Realistic Workflows](https://arxiv.org/abs/2510.24411)
     - Qiushi Sun, Mukai Li, Zhoumianze Liu, Zhihui Xie, Fangzhi Xu, Zhangyue Yin, Kanzhi Cheng, Zehao Li, Zichen Ding, Qi Liu, Zhiyong Wu, Zhuosheng Zhang, Ben Kao, Lingpeng Kong
