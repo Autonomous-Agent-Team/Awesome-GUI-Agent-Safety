@@ -63,12 +63,21 @@ This repository covers a variety of papers related to **GUI Agent Safety**, incl
 ---
 
 ## Papers Grouped by Keywords
-[evaluation (27)](paper_by_key/paper_evaluation.md) | [benchmark (21)](paper_by_key/paper_benchmark.md) | [risk (16)](paper_by_key/paper_risk.md) | [attack (10)](paper_by_key/paper_attack.md) | [injection (8)](paper_by_key/paper_injection.md) | [framework (7)](paper_by_key/paper_framework.md) | [dataset (6)](paper_by_key/paper_dataset.md) | [privacy (5)](paper_by_key/paper_privacy.md) | [AI-Safety (3)](paper_by_key/paper_AI-Safety.md) | [survey (2)](paper_by_key/paper_survey.md) | [Agent-Safety (2)](paper_by_key/paper_Agent-Safety.md) | [misuse (2)](paper_by_key/paper_misuse.md) | [method (2)](paper_by_key/paper_method.md) | [multi-agent (2)](paper_by_key/paper_multi-agent.md) | [jailbreaking (2)](paper_by_key/paper_jailbreaking.md) | [Clawdbot (1)](paper_by_key/paper_Clawdbot.md) | [Model (1)](paper_by_key/paper_Model.md) | [untrustworthy (1)](paper_by_key/paper_untrustworthy.md) | [verification (1)](paper_by_key/paper_verification.md) | [tool (1)](paper_by_key/paper_tool.md)
+[evaluation (28)](paper_by_key/paper_evaluation.md) | [benchmark (22)](paper_by_key/paper_benchmark.md) | [risk (16)](paper_by_key/paper_risk.md) | [attack (10)](paper_by_key/paper_attack.md) | [injection (8)](paper_by_key/paper_injection.md) | [framework (7)](paper_by_key/paper_framework.md) | [dataset (7)](paper_by_key/paper_dataset.md) | [privacy (5)](paper_by_key/paper_privacy.md) | [Agent-Safety (3)](paper_by_key/paper_Agent-Safety.md) | [AI-Safety (3)](paper_by_key/paper_AI-Safety.md) | [survey (2)](paper_by_key/paper_survey.md) | [misuse (2)](paper_by_key/paper_misuse.md) | [method (2)](paper_by_key/paper_method.md) | [multi-agent (2)](paper_by_key/paper_multi-agent.md) | [jailbreaking (2)](paper_by_key/paper_jailbreaking.md) | [computer-use (1)](paper_by_key/paper_computer-use.md) | [Clawdbot (1)](paper_by_key/paper_Clawdbot.md) | [Model (1)](paper_by_key/paper_Model.md) | [untrustworthy (1)](paper_by_key/paper_untrustworthy.md) | [verification (1)](paper_by_key/paper_verification.md)
 
 
 ## All Papers (from most recent to oldest)
 <details open>
 <summary>📄 <b>Click to expand/collapse paper list</b></summary>
+
+- [AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents](https://arxiv.org/pdf/2604.02947)
+    -  Yunhao Feng, Yifan Ding, Yingshui Tan, Xingjun Ma, Yige Li, Yutao Wu, Yifeng Gao, Kun Zhai, Yanming Guo
+    - 🏛️ Institutions: Alibaba, Fudan University, Hunan Institute of Advanced Technology, Deakin University, Singapore Management University
+    - 📅 Date: Apr. 3, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Desktop]
+    - 🔑 Key: [Agent-Safety], [evaluation], [dataset], [benchmark], [computer-use]
+    - 📖 TLDR: Computer-use agents extend language models from text generation to persistent action across tools, files, and execution environments, introducing new safety risks. Unlike chat systems, they maintain state across interactions, allowing harmful behavior to emerge through sequences of individually plausible but collectively unsafe actions. We present AgentHazard, a benchmark for evaluating harmful behavior in computer-use agents. AgentHazard contains 2,653 instances spanning diverse risk categories and attack strategies, where each instance combines a harmful objective with operational steps that appear locally legitimate but jointly induce unsafe behavior. We evaluate Claude Code, OpenClaw, and IFlow using mostly open or openly deployable models from the Qwen3, Kimi, GLM, and DeepSeek families. Results show that current systems remain highly vulnerable: notably, Claude Code powered by Qwen3-Coder achieves an attack success rate of 73.63%, highlighting that model alignment alone does not reliably ensure agent safety.
 
 - [A Trajectory-Based Safety Audit of Clawdbot (OpenClaw)](https://www.arxiv.org/pdf/2602.14364)
     -  Tianyu Chen, Dongrui Liu, Xia Hu, Jingyi Yu, Wenjie Wang
