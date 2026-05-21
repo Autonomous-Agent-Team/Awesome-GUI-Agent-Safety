@@ -70,6 +70,15 @@ This repository covers a variety of papers related to **GUI Agent Safety**, incl
 <details open>
 <summary>📄 <b>Click to expand/collapse paper list</b></summary>
 
+- [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)
+    -  Yuxuan Zhang, Yubo Wang, Yipeng Zhu, Penghui Du, Junwen Miao, Xuan Lu, Wendong Xu, Yunzhuo Hao, Songcheng Cai, Xiaochen Wang, Huaisong Zhang, Xian Wu, Yi Lu, Minyi Lei, Kai Zou, Huifeng Yin, Ping Nie, Liang Chen, Dongfu Jiang, Wenhu Chen, Kelsey R. Allen
+    - 🏛️ Institutions: UBC (NAIL Group), TIGER Lab
+    - 📅 Date: May 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [Agent-Safety], [evaluation], [dataset], [benchmark], [browser-agent], [interception]
+    - 📖 TLDR: ClawBench evaluates browser agents on live production websites (Uber Eats, Indeed, Craigslist, etc.) with a built-in safety mechanism: an HTTP-request interceptor blocks irreversible writes (checkout, account creation, email sends) at the per-task URL/method schema before the agent's final request reaches the server, while still scoring whether the would-have-been-submitted payload was correct via an LLM judge. This lets agents run end-to-end on real sites without real-world side effects, enabling safe-by-construction evaluation of live-website task completion. 283 tasks (V1 153 + V2 130) across 163 live platforms. [code](https://github.com/reacher-z/ClawBench), [leaderboard](https://claw-bench.com)
+
 - [AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents](https://arxiv.org/pdf/2604.02947)
     -  Yunhao Feng, Yifan Ding, Yingshui Tan, Xingjun Ma, Yige Li, Yutao Wu, Yifeng Gao, Kun Zhai, Yanming Guo
     - 🏛️ Institutions: Alibaba, Fudan University, Hunan Institute of Advanced Technology, Deakin University, Singapore Management University
