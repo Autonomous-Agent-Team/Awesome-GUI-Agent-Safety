@@ -1,3 +1,12 @@
+- [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523)
+    -  Yuxuan Zhang, Yubo Wang, Yipeng Zhu, Penghui Du, Junwen Miao, Xuan Lu, Zhuofeng Li, Xingwei Qu, Zhengkang Guo, Yuanzhe Shen, Dingjie Song, Han Zhou, Tuney Zheng, Xian Wu, Hao Yu, Songcheng Cai, Yi Lu, Yunzhuo Hao, Minyi Lei, Liang Chen, et al.
+    - 🏛️ Institutions: TIGER-AI-Lab
+    - 📅 Date: Apr. 9, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Env: [Web]
+    - 🔑 Key: [benchmark], [evaluation], [dataset], [computer-use]
+    - 📖 TLDR: ClawBench evaluates browser agents on 153 everyday online tasks spanning 144 production websites and 15 categories. It records multi-step interactions across live web environments and safely intercepts final submission requests, making it useful for measuring both task completion and action safety. [Github](https://github.com/reacher-z/ClawBench) · [Project](https://claw-bench.com)
+
 - [AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents](https://arxiv.org/pdf/2604.02947)
     -  Yunhao Feng, Yifan Ding, Yingshui Tan, Xingjun Ma, Yige Li, Yutao Wu, Yifeng Gao, Kun Zhai, Yanming Guo
     - 🏛️ Institutions: Alibaba, Fudan University, Hunan Institute of Advanced Technology, Deakin University, Singapore Management University
